@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-   
+    /* background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-2-full.jpg); */
 }
 
 header {
@@ -72,7 +72,17 @@ header {
     flex-direction: column;
     justify-content: space-between;
 }
-
+.image{
+    padding: auto;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    display: grid;
+    grid-area: auto;
+    justify-self: center;
+}
+.image img{
+    width: 70%;
+}
 .qr-section {
     width: 300px;
     display: flex;
@@ -112,7 +122,7 @@ header {
 .form-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 .fields input{
     width: auto;
@@ -222,15 +232,16 @@ header {
 
 .image-section {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 0px;
+    padding-left: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-self: right;
     align-items: center;
 }
 
 .image-section img {
-    width: 40%;
+    width: 60%;
     height: 8cm;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -258,8 +269,8 @@ header {
     padding: 20px;
     padding: 20px 20px 20px 20px;
     max-width: 1000px;
+    
 }
-
 .footer {
     background-color: #333;
     color: #fff;
